@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    a(href='/new') Send new message
+    ul
+        each message in messages
+            div.messageDiv
+                h1 #{message.text}
+                h3  #{message.user}
+                p  #{message.added}
+
+

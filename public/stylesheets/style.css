@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  font-size: large;
+  color: #00B7FF;
+}
+
+p{
+  padding-left: 5px;
+}
+h1 , h3{
+  padding-left: 5px;
+}
+.messageDiv{
+  margin-top: 20px;
+  background-color: lavenderblush;
+  width: max-content;
+  border: tan;
+  border-left-style: solid;
+}
